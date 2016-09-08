@@ -11,10 +11,10 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
  * GLOBAL STYLES
  *********************************************/
 body {
-  background: radial-gradient(#EFEFEF, #E5E5E5, #DDD);
-  background: -moz-radial-gradient(#EFEFEF, #E5E5E5, #DDD);
-  background: -webkit-radial-gradient(#EFEFEF, #E5E5E5, #DDD);
-  background-color: #EFEFEF;
+  background: radial-gradient(#FAFAFA, #EAEAEA, #E5E5E5);
+  background: -moz-radial-gradient(#FAFAFA, #EAEAEA, #E5E5E5);
+  background: -webkit-radial-gradient(#FAFAFA, #EAEAEA, #E5E5E5);
+  background-color: #E5E5E5;
 }
 
 html:-webkit-full-screen-ancestor,
@@ -50,8 +50,8 @@ html:-moz-full-screen-ancestor {
 .reveal h6 {
   margin: 0 0 20px 0;
   color: #333;
-  font-family: "Fira Sans", Helvetica, sans-serif;
-  font-weight: bold;
+  font-family: "Ubuntu", Helvetica, sans-serif;
+  font-weight: 500;
   line-height: 1.2;
   letter-spacing: normal;
   text-shadow: none;
@@ -218,12 +218,12 @@ html:-moz-full-screen-ancestor {
   text-decoration: none;
   -webkit-transition: color .15s ease;
   -moz-transition: color .15s ease;
-  transition: color .15s ease; }
+  transition: color .15s ease;
+}
 
 .reveal a:hover {
-  color: #6ca0e8;
-  text-shadow: none;
-  border: none; }
+  color: #24CAFF !important;
+}
 
 .reveal .roll span:after {
   color: #fff;
@@ -296,11 +296,40 @@ html:-moz-full-screen-ancestor {
 /*********************************************
  * ADDED BY KEVIN NGO
  *********************************************/
+.state--bg-dark body {
+  background: #111;
+}
+
+.state--bg-blue body {
+  background: #30D8FC;
+}
+
+.state--bg-white body {
+  background: #FFF;
+}
+
+[data-background] h1,
+[data-background] h2,
+[data-background] li,
+[data-background] p,
 [data-background-video] h1,
 [data-background-video] h2,
+[data-background-video] li,
 [data-background-video] p {
   color: #FAFAFA;
-  text-shadow: 1px 1px 1px #333;
+  text-shadow: 1px 1px 2px #333;
+}
+
+[data-background].dark-text h1,
+[data-background].dark-text h2,
+[data-background].dark-text li,
+[data-background].dark-text p,
+[data-background-video].dark-text h1,
+[data-background-video].dark-text h2,
+[data-background-video].dark-text li,
+[data-background-video].dark-text p {
+  color: #333;
+  text-shadow: 1px 1px 2px #FAFAFA;
 }
 
 .reveal section a {
@@ -344,7 +373,7 @@ html:-moz-full-screen-ancestor {
 .aframe-scene,
 [data-aframe-scene] {
   margin: 0 auto !important;
-  height: 480px;
+  height: 100%;
   width: 100%;
 }
 
@@ -410,9 +439,4 @@ div.slide__boilerplate p {
 div.slide__boilerplate + video {
   opacity: 0.5;
   z-index: 0;
-}
-
-.slide__questions a {
-  color: #EFEFEF !important;
-  text-decoration: underline;
 }
