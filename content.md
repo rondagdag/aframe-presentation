@@ -5,7 +5,7 @@
   <h2>Building VR on the Web</h2>
 </div>
 
-Ron Dagdag @rondagdag / 07 September 2016 / DFW Front End Development  <!-- .element: class="talk-info" -->
+Ron Dagdag @rondagdag / 12 September 2016 / Computer Visionaries  <!-- .element: class="talk-info" -->
 
 ------
 
