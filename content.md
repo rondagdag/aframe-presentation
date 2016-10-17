@@ -5,7 +5,7 @@
   <h2>Building VR on the Web</h2>
 </div>
 
-Ron Dagdag @rondagdag / 12 September 2016 / Computer Visionaries  <!-- .element: class="talk-info" -->
+Ron Dagdag @rondagdag / 18 October 2016 / FWNUG  <!-- .element: class="talk-info" -->
 
 ------
 
@@ -31,7 +31,7 @@ Ron Dagdag @rondagdag / 12 September 2016 / Computer Visionaries  <!-- .element:
 Ron Dagdag
 @rondagdag
 
-- 3D BIM Developer at thyssenkrupp Elevator
+- 3D Developer at Thyssenkrupp Elevator
 - Hackster DFW Ambassador  [meetup.com/Hackster-DFW](https://meetup.com/Hackster-DFW)
 - Dallas Littlebits Chapter Leader [meetup.com/amRobotics](https://meetup.com/amRobotics)
 - Dallas AR/VR Development meetup [meetup.com/Dallas-Virtual-Reality](https://meetup.com/Dallas-Virtual-Reality)
@@ -734,6 +734,17 @@ iStaging
 - Not just a framework for VR, can also handle 3D and AR as well
 - Prototype by Blair MacIntyre from Georgia Tech with Argon Browser
 - Most predict AR to be even bigger market than VR
+
+---
+
+## Multiverse
+
+Social
+
+[tiny.cc/aframe-multi](http://tiny.cc/aframe-multi)
+
+<!-- NOTES -->
+- audience, use your phone, go to this site
 
 ---
 
