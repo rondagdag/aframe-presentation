@@ -737,18 +737,6 @@ iStaging
 
 ---
 
-## Multiverse
-
-Social
-
-[tiny.cc/aframe-multi](http://tiny.cc/aframe-multi)
-
-<!-- NOTES -->
-- audience, use your phone, go to this site
-
-
----
-
 <!-- .slide: data-background-video="media/video/KinectIoT.mp4" data-background-video-loop="true" -->
 
 ## Kinect
