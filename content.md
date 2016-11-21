@@ -5,7 +5,7 @@
   <h2>Building VR on the Web</h2>
 </div>
 
-Ron Dagdag @rondagdag / 18 October 2016 / FWNUG  <!-- .element: class="talk-info" -->
+Ron Dagdag @rondagdag / November 22, 2016 / Dallas AngularJS Super Heroes  <!-- .element: class="talk-info" -->
 
 ------
 
@@ -16,7 +16,7 @@ Ron Dagdag @rondagdag / 18 October 2016 / FWNUG  <!-- .element: class="talk-info
 - Web Developers?
 - UX Designers?
 - VR Developers?
-- IoT/Robotics?
+- IoT/Robotics Engineers?
 
 <!-- NOTES -->
 - who is my Audience
@@ -39,6 +39,24 @@ Ron Dagdag
 
 <!-- NOTES -->
 - who am i
+
+---
+
+# Hackster Portfolio  <!-- .element: style="color: #black" -->
+
+<img class="stretch" data-src="media/img/hackster-ron.png"/>
+
+<!-- NOTES -->
+- hackster portfolio
+
+---
+
+# Microsoft Hololens Robot Demo <!-- .element: style="color: #black" -->
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/R_YixHJsLU4" frameborder="0" allowfullscreen></iframe>
+
+<!-- NOTES -->
+- microsoft build b15
 
 ------
 
@@ -792,6 +810,12 @@ VR Earth Rover
 <!-- .slide: data-background="media/img/minecraft-blocks.png" style="background-color: rgba(90, 90, 90, 0.7)"-->
 
 # Workshop
+
+[github.com/jascination/aframe-angular-demo](https://github.com/jascination/aframe-angular-demo)
+[github.com/ChenReuven/AframeAngularBolierplate](https://github.com/ChenReuven/AframeAngularBolierplate)
+[github.com/videogular/angular-connect-demo](https://github.com/videogular/angular-connect-demo)
+[github.com/brakmic/Angular_VRDemo](https://github.com/brakmic/Angular_VRDemo)
+[github.com/FintanK/webvr-angular-aframe](https://github.com/FintanK/webvr-angular-aframe)
 
 [bit.ly/aframevr-codepen](http://bit.ly/aframevr-codepen)
 [aframe.io/examples](https://aframe.io/examples)
