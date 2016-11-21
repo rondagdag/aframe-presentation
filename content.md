@@ -9,7 +9,7 @@ Ron Dagdag @rondagdag / November 22, 2016 / Dallas AngularJS Super Heroes  <!-- 
 
 ------
 
-<!-- .slide: class="slide__questions"  data-background="media/img/firefox-nightly.png" style="background-color: rgba(20, 20, 20, 0.2)" -->
+<!-- .slide: class="slide__questions"   style="background-color: rgba(20, 20, 20, 0.1)" -->
 
 # Audience Survey
 
@@ -23,10 +23,9 @@ Ron Dagdag @rondagdag / November 22, 2016 / Dallas AngularJS Super Heroes  <!-- 
 
 ---
 
-<!-- .slide: class="slide__questions"  data-background="media/img/firefox-nightly.png" style="background-color: rgba(20, 20, 20, 0.2)" -->
+<!-- .slide: class="slide__questions"   style="background-color: rgba(20, 20, 20, 0.1)" -->
 
-
-# Introduction  <!-- .element: style="color: #FFF" -->
+# Introduction 
 
 Ron Dagdag
 @rondagdag
@@ -71,6 +70,15 @@ Ron Dagdag
 - Change how we work + play + communicate digitally
 - Digi-Capital forecasts $20B VR market by 2020, half Asia
 - Tell your stories about VR (e.g., I hit someone on the head while playing Fruit Ninja)
+
+---
+
+# Fun!
+
+<!-- .slide: data-background="media/img/vrshooting.jpg" data-state="state--bg-dark" -->
+
+<!-- NOTES -->
+- Tell interested stories about your experiences with VR.
 
 ---
 
@@ -294,23 +302,55 @@ A declarative framework for building virtual reality experiences on the Web
 
 ## Hello World
 
-<!-- .slide: data-transition="slide-in none" -->
+<!-- .slide: data-background="media/img/aframe.png" data-transition="slide-in none" -->
 
 ```html
-<a-scene>
-  <a-box color="#4CC3D9" position="-1 0.5 -3" rotation="0 45 0"></a-box>
-  <a-cylinder color="#FFC65D" position="1 0.75 -3" radius="0.5" height="1.5"></a-cylinder>
-  <a-sphere color="#EF2D5E" position="0 1.25 -5" radius="1.25"></a-sphere>
-  <a-plane color="#7BC8A4" position="0 0 -4" rotation="-90 0 0" width="4" height="4"></a-plane>
-  <a-sky color="#ECECEC"></a-sky>
-</a-scene>
+<html>
+  <script src="https://aframe.io/releases/0.3.2/aframe.min.js"></script>
+  <a-scene>
+
+
+
+
+
+  </a-scene>
+</html>
 ```
 <!-- .element: class="stretch" -->
 
 <!-- NOTES -->
-- Parsable: HTML arguably most accessible language in computing
-- Declarative: visual representation of scene graph, fully represents state
-- Encapsulated: copy-and-paste HTML anywhere else and still work, no variables
+- Just HTML
+- Drop a script tag, no build steps
+- Using Custom HTML Elements
+- One line of HTML `<a-scene>` handles
+  - canvas, camera, renderer, lights, controls, render loop, WebVR polyfill, VREffect
+- Put stuff inside our scene...
+
+---
+
+## Hello World
+
+<!-- .slide: data-background="media/img/aframe.png" data-transition="fade-in slide-out" -->
+
+```html
+<html>
+  <script src="https://aframe.io/releases/0.3.2/aframe.min.js"></script>
+  <a-scene>
+    <a-box color="#4CC3D9" position="-1 0.5 -3" rotation="0 45 0"></a-box>
+    <a-cylinder color="#FFC65D" position="1 0.75 -3" radius="0.5" height="1.5"></a-cylinder>
+    <a-sphere color="#EF2D5E" position="0 1.25 -5" radius="1.25"></a-sphere>
+    <a-plane color="#7BC8A4" position="0 0 -4" rotation="-90 0 0" width="4" height="4"></a-plane>
+    <a-sky color="#ECECEC"></a-sky>
+  </a-scene>
+</html>
+```
+<!-- .element: class="stretch" -->
+
+<!-- NOTES -->
+- Basic 3D primitives with Custom Elements
+- Readable: HTML arguably most accessible language in computing
+- Encapsulated: copy-and-paste HTML anywhere else and still work, no state or variables
+- Quickly look at a live example...
 
 ---
 
@@ -326,6 +366,21 @@ A declarative framework for building virtual reality experiences on the Web
 - And view source in DOM inspector and change values live
 - Can go fullscreen, would go into VR if a headset was connected
 - Can view on mobile if people go to aframe.io
+
+---
+## Hello Metaverse
+
+<i>by Ada Rose Edwards (@lady_ada_king)</i>
+
+<!-- .slide: data-background="media/img/metaverse.png" -->
+
+<div class="stretch" data-aframe-scene="scenes/80s.html"></div>
+
+<!-- NOTES -->
+- A-Frame scene by Ada Rose Edwards running from inside my HTML slides
+- Works on desktop, Android, iOS, Samsung Gear VR, Oculus Rift, HTC Vive
+- Could open up the DOM Inspector to change values live
+- Since it's just HTML...
 
 ------
 
@@ -564,7 +619,55 @@ AFRAME.registerComponent('crazy-position', {
 - Can be shared to other developers
 - Grants 100% extensibility, maintain access to JS / three.js / WebGL
 
+---
+
+<!-- .slide: data-background="media/img/standard-components.png" data-background-size="contain" -->
+
+<!-- NOTES -->
+- Components that ship with A-Frame
+- Bare bones, allow ecosystem to enable features
+
+---
+
+<!-- .slide: data-background="media/img/community-components.png" data-background-size="contain" -->
+
+<!-- NOTES -->
+- Components built by the community and ecosystem
+- Developers enabling others
+- Components can be consumed without programming knowledge
+
+---
+
+<div class="icon-title">
+  <img data-src="media/img/registry.png" width="64">
+  <h2>Registry</h2>
+</div>
+
+<!-- .slide: data-background="media/img/aframe-side.png" -->
+
+Curated collection of A-Frame components/shaders.
+
+<a class="stretch" href="https://aframe.io/aframe-registry">
+  <video loop data-src="media/video/registrypreview.mp4" data-autoplay></video>
+</a>
+
+<!-- NOTES -->
+- Collecting them into the A-Frame registry
+- Like a store of components that we make sure work well
+- People can browse and search for components or install them....
+
+---
+
+## Inspector
+
+<!-- .slide: data-background="media/img/inspector.png" data-state="state--bg-dark" -->
+
+Visual tool for A-Frame. Just `<ctrl>+<alt>+i`.
+
+<div class="stretch" data-aframe-scene="scenes/80s.html"></div>
+
 ------
+
 
 # Integration
 
@@ -587,7 +690,12 @@ scene.appendChild(sphere);
 - Integrates with web languages and APIs
 - Fully controllable through JavaScript and DOM APIs
 
+
 ---
+
+<!-- .slide: data-background="media/img/aframe.jpg" -->
+
+## Works With Everything
 
 <div class="captioned-image-row">
   <div>
@@ -596,18 +704,32 @@ scene.appendChild(sphere);
   </div>
   <div>
     <img data-src="media/img/vue.png">
-    <i>vue.js</i>
+    <i>Vue.js</i>
   </div>
   <div>
     <img data-src="media/img/react.png">
-    <i>React & Redux</i>
+    <i>React</i>
+  </div>
+  <div>
+    <img data-src="media/img/redux.png">
+    <i>Redux</i>
+  </div>
+  <div>
+    <img data-src="media/img/jquery.png">
+    <i>jQuery</i>
+  </div>
+  <div>
+    <img data-src="media/img/angular.png">
+    <i>Angular</i>
   </div>
 </div>
 
 <!-- NOTES -->
-- Based on DOM
-- Can integrate with existing libraries and web frameworks
 
+- Based on HTML, compatible with all existing libraries/frameworks
+- Good reason to have HTML as an intermediary layer between WebGL/three.js
+- All tools were on top of the notion of HTML
+- Under the hood, A-Frame is an extensible, declarative framework for three.js...
 ---
 
 <div class="captioned-image-row">
@@ -629,43 +751,29 @@ scene.appendChild(sphere);
 - Can be used alongside 3D tools
 - Create models and scenes to place into A-Frame
 
----
-
-## With MagicaVoxel
-
-<!-- .slide: data-transition="slide-in none" -->
-
-<img data-src="media/img/magicavoxel.png">
-
-<!-- NOTES -->
-- Can create scenes with MagicaVoxel
-- Super easy tool, drop blocks like Minecraft
-- Then export to A-Frame
-
----
-
-## With MagicaVoxel
-
-<!-- .slide: data-transition="none" -->
-
-<div class="stretch" data-aframe-scene="scenes/magicavoxel.html"></div>
-
-<!-- NOTES -->
-- MagicaVoxel model in A-Frame, mostly a line of HTML
-- Show off the A-Frame Inspector by pressing `<ctrl> + <alt> + i`
-
 ------
+<!-- .slide: data-background-video="media/video/a-painter.mp4" data-background-video-muted="true" data-state="state--bg-dark" -->
 
-# Ecosystem
+## A-Painter
+
+Paint in VR in the browser.
+
+<!-- NOTES -->
+- A-Frame is very powerful
+- 90+fps room-scale TiltBrush experience in a few weeks with just A-Frame
+
+---
+
+# aframe.io
 
 <div class="captioned-image-row">
   <div>
     <img data-src="media/img/github.png">
-    <i>60 contributors, 3000 Stargazers</i>
+    <i>75 contributors 3500 Stargazers</i>
   </div>
   <div>
     <img data-src="media/img/slack.png">
-    <i>1400 members on Slack</i>
+    <i>1750 members on Slack</i>
   </div>
   <div>
     <img data-src="media/img/scene-collage-circle.png">
@@ -678,24 +786,6 @@ scene.appendChild(sphere);
 - Most work done on GitHub
 - Active community on Slack to share projects, interact, hang out, seek help
 - Featured projects on the `awesome-aframe` repository and *A Week of A-Frame* blog
-
----
-
-<!-- .slide: data-background="media/img/standard-components.png" data-background-size="contain" -->
-
-<!-- NOTES -->
-- Components that ship with A-Frame
-- Bare bones, allow ecosystem to enable features
-
----
-
-<!-- .slide: data-background="media/img/community-components.png" data-background-size="contain" -->
-
-<!-- NOTES -->
-- Components built by the community and ecosystem
-- Developers enabling others
-- Components can be consumed without programming knowledge
-
 ---
 
 <!-- .slide: data-background="media/img/360syria.jpg" -->
@@ -794,9 +884,9 @@ VR Earth Rover
 
 ------
 
-<!-- .slide: class="slide__questions" data-background="media/img/scene-collage.jpg" style="background-color: rgba(90, 90, 90, 0.7)" -->
 
-# Questions?  <!-- .element: style="color: #FFF" -->
+<!-- .slide: data-transition="concave" -->
+# Questions?  
 
 - Try it out [aframe.io](https://aframe.io)
 - Join us on Slack [aframevr-slack.herokuapp.com](https://aframevr-slack.herokuapp.com/)
@@ -807,8 +897,7 @@ VR Earth Rover
 
 ---
 
-<!-- .slide: data-background="media/img/minecraft-blocks.png" style="background-color: rgba(90, 90, 90, 0.7)"-->
-
+<!-- .slide: data-transition="concave" -->
 # Workshop
 
 [github.com/jascination/aframe-angular-demo](https://github.com/jascination/aframe-angular-demo)
