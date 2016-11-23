@@ -900,15 +900,19 @@ VR Earth Rover
 <!-- .slide: data-transition="concave" -->
 # Workshop
 
-[github.com/jascination/aframe-angular-demo](https://github.com/jascination/aframe-angular-demo)
-[github.com/ChenReuven/AframeAngularBolierplate](https://github.com/ChenReuven/AframeAngularBolierplate)
-[github.com/videogular/angular-connect-demo](https://github.com/videogular/angular-connect-demo)
-[github.com/brakmic/Angular_VRDemo](https://github.com/brakmic/Angular_VRDemo)
-[github.com/FintanK/webvr-angular-aframe](https://github.com/FintanK/webvr-angular-aframe)
+Angular 
+- [github.com/jascination/aframe-angular-demo](https://github.com/jascination/aframe-angular-demo)
+- [github.com/ChenReuven/AframeAngularBolierplate](https://github.com/ChenReuven/AframeAngularBolierplate)
+- [github.com/FintanK/webvr-angular-aframe](https://github.com/FintanK/webvr-angular-aframe)
 
-[bit.ly/aframevr-codepen](http://bit.ly/aframevr-codepen)
-[aframe.io/examples](https://aframe.io/examples)
-[github.com/aframevr/awesome-aframe](https://github.com/aframevr/awesome-aframe)
+Angular 2
+- [github.com/videogular/angular-connect-demo](https://github.com/videogular/angular-connect-demo)
+- [github.com/brakmic/Angular_VRDemo](https://github.com/brakmic/Angular_VRDemo)
+
+Aframe Examples
+- [bit.ly/aframevr-codepen](http://bit.ly/aframevr-codepen)
+- [aframe.io/examples](https://aframe.io/examples)
+- [github.com/aframevr/awesome-aframe](https://github.com/aframevr/awesome-aframe)
 
 <!-- NOTES -->
 - Homepage which has examples, documentation, blog
