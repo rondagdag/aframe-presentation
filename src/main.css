@@ -300,11 +300,6 @@ html:-moz-full-screen-ancestor {
   background: #111;
 }
 
-.state--bg-dark h2,
-.state--bg-dark p {
-  color: #FAFAFA;
-}
-
 .state--bg-blue body {
   background: #30D8FC;
 }
@@ -435,28 +430,4 @@ div.slide__boilerplate p {
 div.slide__boilerplate + video {
   opacity: 0.5;
   z-index: 0;
-}
-
-.reveal li {
-  margin: 30px 0;
-}
-
-.reveal .icon-title {
-  align-items: center;
-  justify-content: center;
-  display: flex;
-}
-
-.reveal .icon-title img {
-  margin: 0;
-  padding-right: 15px;
-}
-
-.reveal .icon-title h2 {
-  margin: 0;
-}
-
-.aframe-inspector-opened .slides {
-  margin: 0 !important;
-  zoom: 1 !important;
 }
