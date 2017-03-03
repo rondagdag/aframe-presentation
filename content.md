@@ -5,7 +5,7 @@
   <h2>Building VR on the Web</h2>
 </div>
 
-Ron Dagdag @rondagdag / November 22, 2016 / Dallas AngularJS Super Heroes  <!-- .element: class="talk-info" -->
+Ron Dagdag @rondagdag <BR>  March 9, 2017  <BR> Dallas MVP Mix 2017  <!-- .element: class="talk-info" -->
 
 ------
 
@@ -30,6 +30,7 @@ Ron Dagdag @rondagdag / November 22, 2016 / Dallas AngularJS Super Heroes  <!-- 
 Ron Dagdag
 @rondagdag
 
+- Microsoft MVP
 - 3D Developer at Thyssenkrupp Elevator
 - Hackster DFW Ambassador  [meetup.com/Hackster-DFW](https://meetup.com/Hackster-DFW)
 - Dallas Littlebits Chapter Leader [meetup.com/amRobotics](https://meetup.com/amRobotics)
@@ -52,7 +53,10 @@ Ron Dagdag
 
 # Microsoft Hololens Robot Demo <!-- .element: style="color: #black" -->
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/R_YixHJsLU4" frameborder="0" allowfullscreen></iframe>
+<iframe width="760" height="515" src="https://www.youtube.com/embed/R_YixHJsLU4" frameborder="0" allowfullscreen></iframe>
+
+<!--<script src="//content.jwplatform.com/players/RbTpdNqW-83w7PVgg.js"></script>-->
+
 
 <!-- NOTES -->
 - microsoft build b15
@@ -125,10 +129,10 @@ Ron Dagdag
 </div>
 
 <!-- NOTES -->
-- App stores control approval/distribution, can take down content, single points of failure
-- Users have to go through downloads/installs
-- Proprietary tech (Unity/Unreal), steep learning curve, fragmentation,
-  cross-compat issues, siloed experiences
+- App stores and corporations control distribution: can take down or block content
+- Downloads / installs are a barrier to consumption: small business pages
+- Closed ecosystem: proprietary engines, steep learning curves, siloed experiences, fragmentation
+- We want VR to be successful, so we want a platform without these points of friction. The answer is WebVR...
 
 ------
 
@@ -152,11 +156,25 @@ An open virtual reality platform with the advantages of **the Web**
 </div>
 
 <!-- NOTES -->
-- Anyone can publish, open source, open standards
-- Traverse from world to world, not siloed experiences
-- Click a link, immediately get into an experience, easily sharable via links,
-  great for long tail bite-sized experiences
-- Can't wait for the platform to bake and crystallize for years before Web gets involved
+WebVR is...virtual reality in the browser, powered by the Internet
+
+Open:
+- Anyone can publish
+- Open source culture with open standards
+
+Connected:
+- Traverse worlds
+
+Instant:
+- Click a link on Twitter or Weibo, immediate VR experiences
+- No installs
+- Imagine for long tail experiences: shopping & personal spaces
+- Great for long tail bite-sized experiences
+
+Transition:
+- Web has advantages that make it the best platform for the people
+- Need to act to make it reality, can't wait for VR to bake and crystallize
+- Get involved
 
 ---
 
@@ -167,11 +185,16 @@ sensors
 https://w3c.github.io/webvr/
 
 <!-- NOTES -->
-- Working W3C community group
-- Initial WebVR API by Mozilla (Vlad V.)
-- Mozilla, Google, Samsung, Microsoft, community currently drafting WebVR 1.0 API
-- Optimized rendering path to headsets, 90fps+
+API:
+- Optimized rendering path to headsets
 - Access position and rotation (pose) data
+
+History:
+- Initial WebVR API by Mozilla
+- Working W3C community group
+- Mozilla, Google, Samsung, Microsoft, community currently iterating WebVR 1.0 API
+
+Not just a specification, it's implemented...
 
 ---
 
@@ -195,12 +218,19 @@ https://w3c.github.io/webvr/
 </div>
 
 <!-- NOTES -->
-- Browser support
 - Firefox + Chrome WebVR 1.0 hits release channels by early 2017
-- Firefox Nightly: first WebVR browser
-- Chromium: custom Chromium builds by Brandon Jones
-- Samsung: GearVR browser, with a flag
-- Mobile Polyfill: use device motion/orientation sensors to polyfill on smartphones
+- Currently behind Nightly, custom builds, and flags
+- Mobile Polyfill: use device motion / orientation sensors to polyfill on smartphones
+- With all the browsers behind it...
+
+---
+
+# Mixed Reality <!-- .element: style="color: #black" -->
+
+<iframe width="760" height="515" src="https://www.youtube.com/embed/SqXo7pKJGtU" frameborder="0" allowfullscreen></iframe>
+
+<!-- NOTES -->
+- microsoft windows 10 creators update
 
 ---
 
@@ -211,6 +241,7 @@ https://w3c.github.io/webvr/
 <!-- NOTES -->
 - The Web is capable of VR
 - Walk in a web page, reach out with your hands
+- https://webvr.rocks/
 
 ---
 
@@ -218,7 +249,14 @@ https://w3c.github.io/webvr/
 
 <!-- .slide: data-background="media/img/metaverse.png" -->
 
+<!-- NOTES -->
+- Shared persistent collective virtual spaces
+- Alternate digital reality that the world may live, work, play
+- Must be decentralized/open/connected, the Web is best platform to fully realize
+- Where do we begin?
+- three.js abstracts WebGL, 3D, and WebVR, but could still make it more accessible
 ---
+
 
 <!-- .slide: data-background-video="media/video/boilerplate.mp4" data-state="state--bg-dark" -->
 
@@ -297,6 +335,7 @@ A declarative framework for building virtual reality experiences on the Web
 - Enable web developers
 - Prototype and experiment faster
 - A vehicle to kickstart WebVR ecosystem
+
 
 ---
 
@@ -624,17 +663,21 @@ AFRAME.registerComponent('crazy-position', {
 <!-- .slide: data-background="media/img/standard-components.png" data-background-size="contain" -->
 
 <!-- NOTES -->
-- Components that ship with A-Frame
-- Bare bones, allow ecosystem to enable features
+- These are some components that ship with A-Frame
+- A-Frame is fully extensible at its core so...
 
 ---
 
 <!-- .slide: data-background="media/img/community-components.png" data-background-size="contain" -->
 
 <!-- NOTES -->
-- Components built by the community and ecosystem
-- Developers enabling others
-- Components can be consumed without programming knowledge
+- Community has filled the ecosystem with tons of components
+- Components can do whatever they want, have full access to three.js and Web APIs
+- The component ecosystem the lifeblood of A-Frame
+- Physics, leap motion, particle systems, audio visualizations, oceans
+- Drop these components as script tags and use them straight from HTML
+- Advanced developers empowering other developers
+- Working on collecting these components...
 
 ---
 
@@ -866,6 +909,19 @@ Posture Recognition in VR
 
 <!-- NOTES -->
 - You can see your body in VR using Kinect
+- Hackster.io/RONDAGDAG/projects
+
+---
+
+<!-- .slide: data-background-video="media/video/vrSnowGlobe.mp4" data-background-video-loop="true" -->
+
+## 
+
+[bit.ly/vrsnowglobe](http://bit.ly/vrsnowglobe)
+
+<!-- NOTES -->
+- You can incorporate it to your Robotics projects
+- Virtual Reality Telepresence
 - Hackster.io/RONDAGDAG/projects
 
 ---
