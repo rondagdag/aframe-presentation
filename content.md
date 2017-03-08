@@ -387,7 +387,7 @@ A declarative framework for building virtual reality experiences on the Web
 
 ```html
 <html>
-  <script src="https://aframe.io/releases/0.3.2/aframe.min.js"></script>
+  <script src="https://aframe.io/releases/0.5.0/aframe.min.js"></script>
   <a-scene>
 
 
@@ -415,7 +415,7 @@ A declarative framework for building virtual reality experiences on the Web
 
 ```html
 <html>
-  <script src="https://aframe.io/releases/0.3.2/aframe.min.js"></script>
+  <script src="https://aframe.io/releases/0.5.0/aframe.min.js"></script>
   <a-scene>
     <a-box color="#4CC3D9" position="-1 0.5 -3" rotation="0 45 0"></a-box>
     <a-cylinder color="#FFC65D" position="1 0.75 -3" radius="0.5" height="1.5"></a-cylinder>
