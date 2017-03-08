@@ -23,6 +23,15 @@ Ron Dagdag @rondagdag <BR>  March 9, 2017  <BR> Dallas MVP Mix 2017  <!-- .eleme
 
 ---
 
+# Quote  <!-- .element: style="color: #black" -->
+
+"If I had asked people what they wanted, they would have said faster horses." -- Henry Ford
+
+<!-- NOTES -->
+- quote
+
+---
+
 <!-- .slide: class="slide__questions"   style="background-color: rgba(20, 20, 20, 0.1)" -->
 
 # Introduction 
@@ -102,6 +111,7 @@ Ron Dagdag
 
 <!-- NOTES -->
 - Free to $899
+- Microsoft Mixed Reality Platform
 - Tethered and untethered
 - Smartphone, gaming consoles, and PCs
 - Positional tracking vs. rotational only
@@ -136,6 +146,36 @@ Ron Dagdag
 
 ------
 
+## The Web Eats Everything in its Path
+
+<table border="5">
+<tr>
+<td>
+<p>-Graphics</p>
+<p>-Animation</p>
+<p>-Location</p>
+<p>-Motion Input</p>
+<p>-Real-Time 3D</p>
+</td>
+<td>
+<p>-Camera</p>
+<p>-Messaging</p>
+<p>-Real-Time Messaging</p>
+<p>-IOT/Wearables</p>
+<p>-Robotics</p>
+</td>
+</tr>
+</table>
+
+3 Million Mobile Apps vs 1 BILLION Web Sites
+
+<!-- NOTES -->
+- The Web is capable of VR
+- Walk in a web page, reach out with your hands
+- https://webvr.rocks/
+
+---
+
 # WebVR
 
 An open virtual reality platform with the advantages of **the Web**
@@ -154,6 +194,10 @@ An open virtual reality platform with the advantages of **the Web**
     <i>Instant</i>
   </div>
 </div>
+
+
+<small>"If you haven't heard of WebVR yet, it's time to take notice."
+-- VentureBeat, Sept 2016</small>
 
 <!-- NOTES -->
 WebVR is...virtual reality in the browser, powered by the Internet
@@ -183,6 +227,7 @@ Transition:
 Standard browser APIs that enable WebGL rendering to headsets and access to VR
 sensors
 https://w3c.github.io/webvr/
+
 
 <!-- NOTES -->
 API:
@@ -216,23 +261,19 @@ Not just a specification, it's implemented...
     <i>Mobile Polyfill</i>
   </div>
 </div>
+<br>
+https://webvr.rocks/
 
 <!-- NOTES -->
 - Firefox + Chrome WebVR 1.0 hits release channels by early 2017
+- Microsoft Mixed Reality supports it
 - Currently behind Nightly, custom builds, and flags
 - Mobile Polyfill: use device motion / orientation sensors to polyfill on smartphones
 - With all the browsers behind it...
 
----
-
-# Mixed Reality <!-- .element: style="color: #black" -->
-
-<iframe width="760" height="515" src="https://www.youtube.com/embed/SqXo7pKJGtU" frameborder="0" allowfullscreen></iframe>
-
-<!-- NOTES -->
-- microsoft windows 10 creators update
 
 ---
+
 
 <!-- .slide: data-background-video="media/video/roomscale.mp4" data-state="state--bg-dark" -->
 
@@ -254,6 +295,7 @@ Not just a specification, it's implemented...
 - Alternate digital reality that the world may live, work, play
 - Must be decentralized/open/connected, the Web is best platform to fully realize
 - Where do we begin?
+- The Metaverse is too big of an idea.. for an app store -- Tony Parisi
 - three.js abstracts WebGL, 3D, and WebVR, but could still make it more accessible
 ---
 
@@ -974,3 +1016,16 @@ Aframe Examples
 - Homepage which has examples, documentation, blog
 - Slack extremely active, core team responsive, over 1300 people
 - Keep up to date by following on Twitter
+
+
+--- 
+
+# Mixed Reality <!-- .element: style="color: #black" -->
+
+<iframe width="760" height="515" src="https://www.youtube.com/embed/SqXo7pKJGtU" frameborder="0" allowfullscreen></iframe>
+
+<!-- NOTES -->
+- microsoft windows 10 creators update
+https://github.com/Microsoft/HoloJS
+
+---
