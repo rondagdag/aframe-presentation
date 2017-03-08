@@ -23,15 +23,6 @@ Ron Dagdag @rondagdag <BR>  March 9, 2017  <BR> Dallas MVP Mix 2017  <!-- .eleme
 
 ---
 
-# Quote  <!-- .element: style="color: #black" -->
-
-"If I had asked people what they wanted, they would have said faster horses." -- Henry Ford
-
-<!-- NOTES -->
-- quote
-
----
-
 <!-- .slide: class="slide__questions"   style="background-color: rgba(20, 20, 20, 0.1)" -->
 
 # Introduction 
