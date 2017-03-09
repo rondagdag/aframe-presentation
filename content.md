@@ -30,12 +30,13 @@ Ron Dagdag @rondagdag <BR>  March 9, 2017  <BR> Dallas MVP Mix 2017  <!-- .eleme
 Ron Dagdag
 @rondagdag
 
-- Microsoft MVP
 - 3D Developer at Thyssenkrupp Elevator
 - Hackster DFW Ambassador  [meetup.com/Hackster-DFW](https://meetup.com/Hackster-DFW)
 - Dallas Littlebits Chapter Leader [meetup.com/amRobotics](https://meetup.com/amRobotics)
 - Dallas AR/VR Development meetup [meetup.com/Dallas-Virtual-Reality](https://meetup.com/Dallas-Virtual-Reality)
 - Hackster Projects [bit.ly/hackster-ron](https://bit.ly/hackster-ron)
+
+-<img data-src="media/img/mvp.png">
 
 <!-- NOTES -->
 - who am i
