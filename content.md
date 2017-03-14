@@ -5,7 +5,7 @@
   <h2>Building VR on the Web</h2>
 </div>
 
-Ron Dagdag @rondagdag <BR>  March 9, 2017  <BR> Dallas MVP Mix 2017  <!-- .element: class="talk-info" -->
+Ron Dagdag @rondagdag <BR>  March 14, 2017  <BR> ReactJS Dallas <!-- .element: class="talk-info" -->
 
 ------
 
@@ -985,6 +985,18 @@ VR Earth Rover
 - Follow me [@rondagdag](https://twitter.com/rondagdag)
 - Checkout projects [Hackster.io](https://hackster.io/RONDAGDAG/projects)
 - Join [Hackster-DFW](https://meetup.com/Hackster-DFW)
+
+---
+
+<!-- .slide: data-transition="concave" -->
+# Workshop
+
+ReactJS
+- [github.com/ngokevin/aframe-react](https://github.com/ngokevin/aframe-react)
+- [github.com/rondagdag/aframe-react-boilerplate](https://github.com/rondagdag/aframe-react-boilerplate)
+- [Hello World — A-Frame & React](http://codepen.io/cheapsteak/pen/pgbdGa?editors=0010)
+- [Hands-on with virtual reality using A-Frame, React and Redux](https://medium.com/immersion-for-the-win/hands-on-with-virtual-reality-using-a-frame-react-and-redux-bc66240834f7#.9lvbgqvzm)
+- [github.com/rondagdag/aframe-meetup-example](https://github.com/rondagdag/aframe-meetup-example)
 
 ---
 
