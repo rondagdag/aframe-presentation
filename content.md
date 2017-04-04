@@ -664,17 +664,6 @@ iStaging
 
 ---
 
-## Multiverse
-
-Social
-
-[tiny.cc/aframe-multi](http://tiny.cc/aframe-multi)
-
-<!-- NOTES -->
-- audience, use your phone, go to this site
-
----
-
 <!-- .slide: data-background-video="media/video/KinectIoT.mp4" data-background-video-loop="true" -->
 
 ## Kinect
@@ -713,6 +702,17 @@ VR Earth Rover
 - You can incorporate it to your Robotics projects
 - Virtual Reality Telepresence
 - Hackster.io/RONDAGDAG/projects
+
+---
+
+## Multiverse
+
+Social Bunny
+
+[https://lavish-night.glitch.me](https://lavish-night.glitch.me)
+
+<!-- NOTES -->
+- audience, use your phone, go to this site
 
 ------
 
