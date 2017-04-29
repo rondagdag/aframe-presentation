@@ -5,7 +5,7 @@
   <h2>Building VR on the Web</h2>
 </div>
 
-Ron Dagdag @rondagdag <BR>  April 5, 2017  <BR> Dallas Startup Week<!-- .element: class="talk-info" -->
+Ron Dagdag @rondagdag | April 27, 2017 | Dallas JS<!-- .element: class="talk-info" -->
 
 ------
 
