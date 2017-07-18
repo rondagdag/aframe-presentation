@@ -22,10 +22,10 @@
   "author": "Kevin Ngo <kngo@mozilla.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ngokevin/aframe-presentation-kit/issues"
+    "url": "https://github.com/aframevr/aframe-presentation-kit/issues"
   },
-  "homepage": "https://github.com/ngokevin/aframe-presentation-kit#readme",
+  "homepage": "https://github.com/aframevr/aframe-presentation-kit#readme",
   "devDependencies": {
-    "http-server": "^0.9.0"
+    "live-server": "^1.2.0"
   }
 }
