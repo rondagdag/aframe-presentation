@@ -845,11 +845,11 @@ VR Earth Rover
 
 ---
 
-## Multiverse
+## Social VR
 
-Social Bunny
+Networked AFrame
 
-[https://lavish-night.glitch.me](https://lavish-night.glitch.me)
+[https://bit.ly/socialvrcamping](https://bit.ly/socialvrcamping)
 
 <!-- NOTES -->
 - audience, use your phone, go to this site
