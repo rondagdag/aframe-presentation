@@ -5,7 +5,7 @@
   <h2>A web framework for building VR experiences</h2>
 </div>
 
-Ron Dagdag |  July 21, 2017  |  Tulsa TechFest<!-- .element: class="talk-info" -->
+Ron Dagdag |  Sept 15, 2017  |  Big Design Conference<!-- .element: class="talk-info" -->
 
 ------
 
@@ -13,8 +13,8 @@ Ron Dagdag |  July 21, 2017  |  Tulsa TechFest<!-- .element: class="talk-info" -
 
 # Audience Survey
 
-- Web Developers?
 - UX Designers?
+- Web Developers?
 - VR Developers?
 - IoT/Robotics Engineers?
 
@@ -300,6 +300,9 @@ https://webvr.rocks
 ---
 
 
+Too hard to create WebVR experiences...
+
+---
 <!-- .slide: data-background-video="media/video/boilerplate.mp4" data-state="state--bg-dark" -->
 
 <div class="slide__boilerplate">
@@ -850,6 +853,17 @@ VR Earth Rover
 Networked AFrame
 
 [https://bit.ly/socialvrcamping](https://bit.ly/socialvrcamping)
+
+<!-- NOTES -->
+- audience, use your phone, go to this site
+
+---
+
+## 3d Prototyping
+
+3d.io App Creator
+
+[https://appcreator.3d.io/](https://appcreator.3d.io/)
 
 <!-- NOTES -->
 - audience, use your phone, go to this site
