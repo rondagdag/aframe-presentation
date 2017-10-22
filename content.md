@@ -5,7 +5,7 @@
   <h2>A web framework for building VR experiences</h2>
 </div>
 
-Ron Dagdag |  Sept 15, 2017  |  Big Design Conference<!-- .element: class="talk-info" -->
+Ron Dagdag |  Oct 24, 2017  |  Dallas ASP.NET<!-- .element: class="talk-info" -->
 
 ------
 
@@ -88,6 +88,10 @@ Ron Dagdag |  Sept 15, 2017  |  Big Design Conference<!-- .element: class="talk-
 ## Hardware
 
 <div class="image-row">
+  <div><img data-src="media/img/vrheadsets.jpg"></div>
+</div>
+
+<!-- <div class="image-row">
   <div><img data-src="media/img/google-cardboard.png"></div>
   <div><img data-src="media/img/google-daydream.png"></div>
   <div><img data-src="media/img/samsung-gearvr.png"></div>
@@ -97,7 +101,7 @@ Ron Dagdag |  Sept 15, 2017  |  Big Design Conference<!-- .element: class="talk-
   <div><img data-src="media/img/oculus-rift.png"></div>
   <div><img data-src="media/img/playstation-vr.png"></div>
   <div><img data-src="media/img/htc-vive.png"></div>
-</div>
+</div> -->
 
 <!-- NOTES -->
 - Backed by the largest corporations in the world, everyone wants in
