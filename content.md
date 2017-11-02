@@ -5,7 +5,7 @@
   <h2>A web framework for building VR experiences</h2>
 </div>
 
-Ron Dagdag |  Oct 24, 2017  |  Dallas ASP.NET<!-- .element: class="talk-info" -->
+Ron Dagdag |  Nov 3, 2017  |  ThunderPlains<!-- .element: class="talk-info" -->
 
 ------
 
@@ -198,6 +198,7 @@ Open:
 
 Connected:
 - Traverse worlds
+- drawvr.com
 
 Instant:
 - Click a link on Twitter or Weibo, immediate VR experiences
@@ -209,6 +210,16 @@ Transition:
 - Web has advantages that make it the best platform for the people
 - Need to act to make it reality, can't wait for VR to bake and crystallize
 - Get involved
+
+---
+## Virtual Worlds
+
+Virtual Worlds
+
+[http://drawvr.com](http://drawvr.com)
+
+<!-- NOTES -->
+- audience, use your phone, go to this site
 
 ---
 
