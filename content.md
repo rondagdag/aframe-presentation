@@ -883,59 +883,8 @@ Networked AFrame
 <!-- NOTES -->
 - audience, use your phone, go to this site
 
-------
-
-
-<!-- .slide: data-transition="concave" -->
-# Questions?  
-
-- Try it out [aframe.io](https://aframe.io)
-- Join us on Slack [aframevr-slack.herokuapp.com](https://aframevr-slack.herokuapp.com/)
-- Follow us [@aframevr](https://twitter.com/aframevr)
-- Follow me [@rondagdag](https://twitter.com/rondagdag)
-- Checkout projects [Hackster.io](https://hackster.io/RONDAGDAG/projects)
-- Join [Hackster-DFW](https://meetup.com/Hackster-DFW)
-
 ---
-
-<!-- .slide: data-transition="concave" -->
-# Workshop
-
-ReactJS
-- [github.com/ngokevin/aframe-react](https://github.com/ngokevin/aframe-react)
-- [github.com/rondagdag/aframe-react-boilerplate](https://github.com/rondagdag/aframe-react-boilerplate)
-- [Hello World — A-Frame & React](http://codepen.io/cheapsteak/pen/pgbdGa?editors=0010)
-- [Hands-on with virtual reality using A-Frame, React and Redux](https://medium.com/immersion-for-the-win/hands-on-with-virtual-reality-using-a-frame-react-and-redux-bc66240834f7#.9lvbgqvzm)
-- [github.com/rondagdag/aframe-meetup-example](https://github.com/rondagdag/aframe-meetup-example)
-
----
-
-<!-- .slide: data-transition="concave" -->
-# Workshop
-
-Angular 
-- [github.com/jascination/aframe-angular-demo](https://github.com/jascination/aframe-angular-demo)
-- [github.com/ChenReuven/AframeAngularBolierplate](https://github.com/ChenReuven/AframeAngularBolierplate)
-- [github.com/FintanK/webvr-angular-aframe](https://github.com/FintanK/webvr-angular-aframe)
-
-Angular 2
-- [github.com/videogular/angular-connect-demo](https://github.com/videogular/angular-connect-demo)
-- [github.com/brakmic/Angular_VRDemo](https://github.com/brakmic/Angular_VRDemo)
-
-Aframe Examples
-- [bit.ly/aframevr-codepen](http://bit.ly/aframevr-codepen)
-- [aframe.io/examples](https://aframe.io/examples)
-- [github.com/aframevr/awesome-aframe](https://github.com/aframevr/awesome-aframe)
-
-<!-- NOTES -->
-- Homepage which has examples, documentation, blog
-- Slack extremely active, core team responsive, over 1300 people
-- Keep up to date by following on Twitter
-
-
---- 
-
-# Mixed Reality <!-- .element: style="color: #black" -->
+# Windows Mixed Reality <!-- .element: style="color: #black" -->
 
 <iframe width="760" height="515" src="https://www.youtube.com/embed/SqXo7pKJGtU" frameborder="0" allowfullscreen></iframe>
 
@@ -943,7 +892,7 @@ Aframe Examples
 - microsoft windows 10 creators update
 https://github.com/Microsoft/HoloJS
 
----
+------
 
 # aframe.io
 
@@ -967,3 +916,60 @@ https://github.com/Microsoft/HoloJS
 - Most work done on GitHub
 - Active community on Slack to share projects, interact, hang out, seek help
 - Featured projects on the `awesome-aframe` repository and *A Week of A-Frame* blog
+
+---
+
+<!-- .slide: data-transition="concave" -->
+# Questions?  
+
+- Try it out [aframe.io](https://aframe.io)
+- Join us on Slack [aframevr-slack.herokuapp.com](https://aframevr-slack.herokuapp.com/)
+- Follow us [@aframevr](https://twitter.com/aframevr)
+- Follow me [@rondagdag](https://twitter.com/rondagdag)
+- Checkout projects [Hackster.io](https://hackster.io/RONDAGDAG/projects)
+- Join [Hackster-DFW](https://meetup.com/Hackster-DFW)
+
+---
+
+<!-- .slide: data-transition="concave" -->
+# Examples
+
+ReactJS
+- [github.com/ngokevin/aframe-react](https://github.com/ngokevin/aframe-react)
+- [github.com/rondagdag/aframe-react-boilerplate](https://github.com/rondagdag/aframe-react-boilerplate)
+- [Hello World — A-Frame & React](http://codepen.io/cheapsteak/pen/pgbdGa?editors=0010)
+- [Hands-on with virtual reality using A-Frame, React and Redux](https://medium.com/immersion-for-the-win/hands-on-with-virtual-reality-using-a-frame-react-and-redux-bc66240834f7#.9lvbgqvzm)
+- [github.com/rondagdag/aframe-meetup-example](https://github.com/rondagdag/aframe-meetup-example)
+
+---
+
+<!-- .slide: data-transition="concave" -->
+# Examples
+
+Angular 
+- [github.com/jascination/aframe-angular-demo](https://github.com/jascination/aframe-angular-demo)
+- [github.com/ChenReuven/AframeAngularBolierplate](https://github.com/ChenReuven/AframeAngularBolierplate)
+- [github.com/FintanK/webvr-angular-aframe](https://github.com/FintanK/webvr-angular-aframe)
+
+Angular 2
+- [github.com/videogular/angular-connect-demo](https://github.com/videogular/angular-connect-demo)
+- [github.com/brakmic/Angular_VRDemo](https://github.com/brakmic/Angular_VRDemo)
+
+---
+
+<!-- .slide: data-transition="concave" -->
+# Examples
+
+Aframe Examples
+- [bit.ly/aframevr-codepen](http://bit.ly/aframevr-codepen)
+- [aframe.io/examples](https://aframe.io/examples)
+- [github.com/aframevr/awesome-aframe](https://github.com/aframevr/awesome-aframe)
+
+<!-- NOTES -->
+- Homepage which has examples, documentation, blog
+- Slack extremely active, core team responsive, over 1300 people
+- Keep up to date by following on Twitter
+
+--- 
+
+
